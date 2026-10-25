@@ -1,0 +1,36 @@
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+
+}
+.gallery img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+}
+p {
+    margin-left: 8px;
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+    font-style: normal;
+}
+body {
+    background-color: gold;
+}
+
+ul {
+    list-style-type: none;
+    color: blue;
+    margin-right: 10px;
+
+
+}
